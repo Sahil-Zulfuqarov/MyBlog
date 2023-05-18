@@ -121,3 +121,11 @@ a{
     align-items: center;
     margin-top: 20px;
 }
+
+#home, #photography, #travel, #fashion, #about, #contact{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
