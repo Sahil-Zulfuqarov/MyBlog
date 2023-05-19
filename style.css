@@ -25,14 +25,9 @@ aside{
 }
 
 main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     position: absolute;
     right: 0;
     width: 75%;
-    height: 300vh;
-    padding: 100px;
 }
 
 ul{
@@ -102,6 +97,7 @@ a{
     font-size: 22px;
     margin-bottom: 30px;
     color: #444;
+    font-family: cursive;
 }
 
 .a1{
@@ -128,4 +124,11 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 100px;
+}
+
+.h23{
+    margin-bottom: 50px;
+    font-size: 35px;
+    font-family: cursive;
 }
