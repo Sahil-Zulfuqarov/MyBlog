@@ -44,7 +44,8 @@ li:hover{
     cursor: pointer;
     color: #444;
     text-decoration: underline 2px #444;
-    
+    transform: scale(1.1);
+    transition: 0.2s;
 }
 
 .h21{
@@ -62,6 +63,10 @@ a{
     text-decoration: none;
     color: rgb(212, 138, 1);
     margin-top: 20px;
+}
+
+.spa:hover{
+    text-decoration: underline;
 }
 
 .p1{
